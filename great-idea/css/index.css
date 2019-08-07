@@ -174,5 +174,45 @@ footer{
 
 .container{
 	display:flex;
-align-items:center;
 }
+
+h1{
+	font-size:25px;
+}
+
+.services-header-img{
+	width:100%;
+}
+
+.top-info {
+	width:100%;
+	border-bottom: 1px solid black;
+	padding-bottom:30px;
+	display:flex;
+
+}
+
+.services-content {
+	/* border:1px solid black; */
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	margin-bottom:10px;
+	text-align:left;
+}
+
+.services-content .servicesBox{
+	width:48%;
+	background-color:lightgrey;
+	border:1px solid black;
+	padding:15px;
+	margin-bottom:25px;
+}
+.button{
+	display:flex;
+
+}
+/* #services nav{
+	display:flex;
+} */
