@@ -173,6 +173,7 @@ footer{
 /*-----------------------SERVICES CSS-----------------------------*/
 
 .container{
+	width:100%;
 	display:flex;
 }
 
@@ -195,6 +196,7 @@ h1{
 .services-content {
 	/* border:1px solid black; */
 	width:100%;
+	padding-top:40px;
 	display:flex;
 	justify-content:space-between;
 	flex-wrap:wrap;
@@ -209,10 +211,23 @@ h1{
 	padding:15px;
 	margin-bottom:25px;
 }
-.button{
-	display:flex;
+button{
+	border:1px solid black;
+	border-radius:5px;
+	padding:5px 25px 5px 25px;
 
 }
+
+.facts{
+	border-top:1px solid black;
+	padding:20px;
+	/* display:flex; */
+}
+
+/* .facts-content{
+	display:flex;
+	justify-conent:space-between;
+} */
 /* #services nav{
 	display:flex;
 } */
