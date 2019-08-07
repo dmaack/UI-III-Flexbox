@@ -172,3 +172,7 @@ footer{
 
 /*-----------------------SERVICES CSS-----------------------------*/
 
+.container{
+	display:flex;
+align-items:center;
+}
