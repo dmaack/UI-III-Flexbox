@@ -82,7 +82,7 @@ nav{
 nav a{
 	text-decoration:none;
 	color:grey;
-	padding:0 25px 0;	
+	padding:0 0 0;	
 }
 			/*INTRO HEADER*/
 .intro{
@@ -96,7 +96,7 @@ nav a{
 	padding:0 0 40px;
 }
 
-header {
+.first-header {
 	padding:20px 20px 20px;
 }
 
@@ -173,23 +173,35 @@ footer{
 /*-----------------------SERVICES CSS-----------------------------*/
 
 .container{
-	width:100%;
+	width:96%;
+	padding-top:30px;
+	padding-bottom:20px;
+	margin: 0 2% 0 2%;
 	display:flex;
+	justify-content:space-between;
 }
 
 h1{
 	font-size:25px;
 }
+.navLinks{
+	padding-top:5px;
+	display:flex;
+	justify-content:space-between;
+}
 
 .services-header-img{
-	width:100%;
+	width:96%;
+	margin: 0 2% 0 2%;
+
 }
 
 .top-info {
-	width:100%;
+	width:96%;
 	border-bottom: 1px solid black;
 	padding-bottom:30px;
 	padding-top:30px;
+	margin: 0 2% 0 2%;
 	display:flex;
 
 }
@@ -199,13 +211,14 @@ h1{
 	width:100%;
 	padding-top:40px;
 	display:flex;
-	justify-content:space-between;
+	justify-content:space-evenly;
 	flex-wrap:wrap;
-	flex-grow:;
-	margin-bottom:10px;
-	text-align:left;
 }
 
+/* .servicesBox{
+	display:flex;
+	align-content:flex-start;
+} */
 .services-content .servicesBox{
 	width:48%;
 	/* height:250px; */
@@ -227,24 +240,22 @@ p{
 
 .facts{
 	border-top:1px solid black;
-	/* border:1px solid black; */
-	padding:10px;
+	width:100%;
+	
 	display:flex;
-	justify-content:space-between;
-}
-.facts-content{
-	width: 98px%;
-	border:1px solid black;
-	dispaly:flex;
-	justify-content:space-between;
-}
-.special-facts-content{
-	border:1px solid black;
-	display:flex;
-	flex-direction:column;
+	justify-content:space-evenly;
+	flex-wrap:wrap;
+	/* padding-top:30px;
+	display:flex; */
 	
 }
-.services-info-img{
+.facts-content{
+	width:48%;
+	/* height:250px; */
+	margin-top:40px;
+	margin-bottom:60px;
+}
 
-	border:1px solid black;
+.services-info-img{
+	width:100%;
 }
