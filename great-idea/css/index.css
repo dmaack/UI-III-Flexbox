@@ -116,7 +116,8 @@ nav a{
 .intro-button{
 	border:1px solid black;
 	padding:5px 40px 5px;
-	border-radius:none;
+	font-size:15px;
+	margin-top:10px;
 }
 
 			/*TOP CONTENT*/
@@ -235,7 +236,7 @@ h1{
 	margin-bottom:40px;
 }
 
-button{
+.learn-button{
 	border:1px solid black;
 	border-radius:5px;
 	padding:8px 40px 8px 40px;
@@ -267,4 +268,8 @@ hr{
 
 .services-info-img{
 	width:100%;	
+}
+
+.copywrite{
+	margin-bottom:30px;
 }
