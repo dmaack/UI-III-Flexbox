@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5 {
 			/*NAVIGATION BAR*/
 
 .navigation {	
-	width:880px;
+	width:90%;
 	margin:auto;
 }
 
@@ -82,9 +82,11 @@ nav{
 nav a{
 	text-decoration:none;
 	color:grey;
-	padding:0 0 0;	
+	/* padding:0 0 0;	 */
 }
+
 			/*INTRO HEADER*/
+
 .intro{
 	text-align:center;
 }
@@ -100,8 +102,9 @@ nav a{
 	padding:20px 20px 20px;
 }
 
-h1{
+.h1-index p{
 	font-size:80px;
+	line-height:normal;
 }
 
 .circleImg{
@@ -113,55 +116,62 @@ h1{
 .intro-button{
 	border:1px solid black;
 	padding:5px 40px 5px;
+	border-radius:none;
 }
+
 			/*TOP CONTENT*/
 
 .top-content{
 	border-top:1px solid black;
-	padding:30px 0 30px;
+	padding:40px 0 40px;
 }
 
 .top-content .box1{
 	display:inline-block;
-	width: 48%;
-	margin-right:5px;	
+	width: 49.5%;
+	margin-right:5px;;	
 }
 
 .top-content .box2{
 	display:inline-block;
-	width:48%;	
+	width:49.5%;	
 }
 
 .middle-img{
 	display:block;
 	width:100%;	
 }
+
 			/*BOTTOM CONTENT*/
+
 .bottom-content{
 	border-bottom:1px solid black;
-	padding:20px 0 30px;
+	padding:40px 0 40px;
 }
 
 .bottom-content .box3{
 	display:inline-block;
-	width: 30.5%;
+	width: 32%;
+	margin-right:1.5%;
 }
 
 .bottom-content .box4{
 	display:inline-block;
-	width: 30.5%;
-	margin:0 20px 0 0;	
+	width: 32%;
+	margin-right:1.5%;
 }
 
 .bottom-content .box5{
 	display:inline-block;
-	width: 30.5%;
+	width: 32%;
 }
+
 			/*FOOTER SECTION*/
+
 .contact{
-	width:10%;
 	margin:20px;
 	padding-top:15px;
+	line-height:1.5;
 }
 
 footer{
@@ -172,11 +182,12 @@ footer{
 
 /*-----------------------SERVICES CSS-----------------------------*/
 
+
 .container{
-	width:96%;
+	width:90%;
 	padding-top:30px;
 	padding-bottom:20px;
-	margin: 0 2% 0 2%;
+	margin: 0 5% 0 5%;
 	display:flex;
 	justify-content:space-between;
 }
@@ -191,38 +202,34 @@ h1{
 }
 
 .services-header-img{
-	width:96%;
-	margin: 0 2% 0 2%;
-
+	width:90%;
+	margin: 0 5% 0 5%;
 }
 
 .top-info {
-	width:96%;
+	width:90%;
 	border-bottom: 1px solid black;
 	padding-bottom:30px;
 	padding-top:30px;
-	margin: 0 2% 0 2%;
-	display:flex;
+	margin: 0 5% 0 5%;
+}
 
+.top-into .services{
+	width:90%;
+	margin: 0 5% 0 5%;
 }
 
 .services-content {
-	/* border:1px solid black; */
-	width:100%;
+	width: 100%;
 	padding-top:40px;
 	display:flex;
 	justify-content:space-evenly;
 	flex-wrap:wrap;
 }
 
-/* .servicesBox{
-	display:flex;
-	align-content:flex-start;
-} */
 .services-content .servicesBox{
-	width:48%;
-	/* height:250px; */
-	background-color:lightgrey;
+	width:42.5%;
+	background-color:#f2f2f2;
 	border:1px solid black;
 	padding:25px;
 	margin-bottom:40px;
@@ -232,30 +239,32 @@ button{
 	border:1px solid black;
 	border-radius:5px;
 	padding:8px 40px 8px 40px;
+	margin-top:15px;
 }
 
 p{
-	margin-bottom:15px;
+	line-height:1.5;
+	/* margin-bottom:15px; */
+}
+
+hr{
+	width:90%;
+	border-top:1px solid black;
 }
 
 .facts{
-	border-top:1px solid black;
 	width:100%;
-	
 	display:flex;
 	justify-content:space-evenly;
 	flex-wrap:wrap;
-	/* padding-top:30px;
-	display:flex; */
-	
 }
+
 .facts-content{
-	width:48%;
-	/* height:250px; */
+	width:42.5%;
 	margin-top:40px;
 	margin-bottom:60px;
 }
 
 .services-info-img{
-	width:100%;
+	width:100%;	
 }
